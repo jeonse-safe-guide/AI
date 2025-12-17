@@ -1,0 +1,45 @@
+{
+  "model_name": "lgb_service_v1",
+  "current_year": 2025,
+  "target": "risk_label",
+  "group_key": "kaptCode",
+  "threshold_objective": "f1",
+  "threshold": 0.6657437100697348,
+  "features": [
+    "area_m2",
+    "floor",
+    "build_year",
+    "basic_hoCnt",
+    "basic_kaptDongCnt",
+    "basic_kaptTopFloor",
+    "basic_kaptUsedate",
+    "basic_codeHeatNm",
+    "basic_codeSaleNm",
+    "dtl_kaptMgrCnt",
+    "dtl_groundElChargerCnt",
+    "dtl_undergroundElChargerCnt",
+    "sggName",
+    "emdName",
+    "floor_ratio",
+    "building_age_years",
+    "dtl_groundElChargerCnt_isna",
+    "dtl_undergroundElChargerCnt_isna"
+  ],
+  "categorical_features": [
+    "basic_kaptUsedate",
+    "basic_codeHeatNm",
+    "basic_codeSaleNm",
+    "sggName",
+    "emdName"
+  ],
+  "optional_user_inputs": [
+    "area_m2",
+    "floor"
+  ],
+  "notes": [
+    "Service inputs: address(required) + area_m2(optional) + floor(optional).",
+    "Address text is NOT used as a raw feature. Address resolves kaptCode + complex features in DB.",
+    "No deal_ym/month_sin/cos. building_age_years uses CURRENT_YEAR - build_year.",
+    "Missing values are kept as NaN; 일부는 *_isna indicator로 보강."
+  ]
+}

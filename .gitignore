@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+.venv/
+# HuggingFace cache
+hf_cache/
+
+# Temp
+temp_uploads/
+
+# OS
+.DS_Store
+
+# ML data
+ML/data/
+checklist_server/data/

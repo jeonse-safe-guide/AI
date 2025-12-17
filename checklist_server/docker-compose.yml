@@ -1,0 +1,9 @@
+services:
+  checklist-api:
+    build: .
+    container_name: checklist_server
+    ports:
+      - "8000:8000"  # 호스트포트:컨테이너포트
+    env_file:
+      - .env         # 가지고 있는 .env 파일을 컨테이너에 적용
+    restart: always  # 서버가 재부팅되거나 에러로 죽어도 자동 재시작

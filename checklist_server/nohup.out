@@ -1,0 +1,15 @@
+DEBUG: Using Model: gemini-2.5-flash (Schema Removed)
+INFO:     100.64.1.3:55236 - "POST /generate HTTP/1.1" 200 OK
+INFO:     100.64.1.2:41630 - "GET /doc HTTP/1.1" 404 Not Found
+INFO:     100.64.1.4:34012 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     100.64.1.3:51994 - "GET /doc HTTP/1.1" 404 Not Found
+INFO:     100.64.1.3:33884 - "GET /redoc HTTP/1.1" 200 OK
+INFO:     100.64.1.1:37782 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.1.3:57834 - "GET /doc HTTP/1.1" 404 Not Found
+INFO:     100.64.1.3:57846 - "GET /redoc HTTP/1.1" 200 OK
+INFO:     100.64.1.3:57846 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.1.1:37860 - "POST /generate HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [70735]
