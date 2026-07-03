@@ -1,4 +1,4 @@
-🤖 전세 안심 길잡이 - AI (Jeonse Safe Guide - AI)
+#🤖 전세 안심 길잡이 - AI (Jeonse Safe Guide - AI)
 
 
 등기부등본을 분석해 전세 사기 위험을 예측하는 AI 파트입니다.
@@ -7,7 +7,7 @@
 
 
 
-📌 주요 기능 (Features)
+#📌 주요 기능 (Features)
 
 
 📄 등기부등본 OCR — 이미지/PDF 등기부등본에서 텍스트 자동 추출
